@@ -16,4 +16,4 @@ For the moment, though, I'm focused on getting good at reverse engineering and e
 
 Notes on security and (after a little break) ML.
 
-[Contrast theme](https://github.com/niklasbuschmann/contrast) pinched from [@niklasbuschmann](https://github.com/niklasbuschmann)
+<sub><sup>Contrast theme pinched from [@niklasbuschmann](https://github.com/niklasbuschmann)</sup></sub>
