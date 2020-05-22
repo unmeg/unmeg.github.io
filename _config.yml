@@ -23,7 +23,7 @@ minimal: false               # use simpler style
 
 navigation:
   - {file: "index.html", icon: home}
-  - {file: "about.html", icon: address-card}
+  - {file: "about.md", icon: address-card}
 
 external:                    # see http://fontawesome.com/icons
 #  - {title: Mail, icon: envelope, url: "mailto:niklasbuschmann@users.noreply.github.com"}
