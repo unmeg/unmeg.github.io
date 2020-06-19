@@ -10,7 +10,7 @@ My name is Meg White. I'm a fourth-year electrical engineering student and an as
 
 In March 2020, I resigned from my job as a machine learning research engineer and startup CEO. I love deep learning and I look forward to working at the intersection of AI and security for a long time to come. 
 
-For the moment, though, I'm focused on learning everything I can about reverse engineering, source code analysis, exploit development, embedded devices and all the ideas in between. My interests pertain very consistently to "cyber-physical systems" and I'm very keen to git gud at making and breaking them!
+For the moment, though, I'm focused on learning everything I can about reverse engineering, source code analysis, exploit development, embedded devices and all the ideas in between. My interests pertain very consistently to "cyber-physical systems" and I'm keen to git gud at making and breaking them!
 
 ## whatisblog
 
