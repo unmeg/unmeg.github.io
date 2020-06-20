@@ -5,7 +5,7 @@ layout: post
 
 This is a cool way to quickly emulate architectures other than the one you're running on without having to roll out a full VM! 
 
-I've done a basic and awful job of automating it so you can see how the pieces work together. You'll probably need to tweak a bunch of stuff to use these tools more generally, but now you have a clear starting point from which to tinker!
+I've done a basic and awful job of automating it so you can see how the pieces work together. You'll probably need to tweak a bunch of stuff to use these tools more generally, but now you have a clear starting point from which to tinker.
 
 ## How to do the thing
 
