@@ -1,0 +1,52 @@
+---
+title:  "Emulating firmware with Docker and QEMU"
+layout: post
+---
+
+## TLDR
+
+This is a cool way to quickly emulate architectures other than the one you're running on without having to roll out a full VM! 
+
+I've done a basic and awful job of automating it so you can see how the pieces work together. You'll probably have to tweak a bunch of stuff to use this more generally, but this should give you a clear starting point from which to tinker!
+
+## How to do the thing
+
+[I've made three scripts](https://github.com/unmeg/docker-emu): one to prepare your environment, one to build the Dockerfile and container image, and one to run the container (I've only included two run commands but obviously you could store whatever you wanted in there).
+
+I've presented them this way so it's easy to follow. I don't think the run script is required.
+
+Here are some steps for an example firmware:
+
+```shell
+git clone https://github.com/unmeg/docker-emu.git
+cd docker-emu/
+wget http://www.downloads.netgear.com/files/GDC/WNAP320/WNAP320_V3.7.11.4.zip
+mv WNAP320* firmware.zip
+chmod +x prep_docker.sh run_docker.sh build_docker.sh test_docker.sh
+
+./prep_docker.sh
+
+./build_docker.sh
+
+./run_docker.sh
+```
+
+## TODO
+I haven't gotten gdbserver and remote debugging to work with this setup yet, which would sort of boost the whole thing from Very Cool to Totally Awesome. 
+
+As of writing, I successfully get the binary (by putting it in addons) and can run it, but I get packet errors when I connect with GDB from my host. I'm not sure where the problem is and I haven't really spent any time on it. 
+
+My plan was to figure it out before posting this up, but I'm getting more and more distracted from that task every day, so it may be a while.
+
+If you get it working, let me know how and I'll update the scripts/post with credit to you!
+
+## Credit where it's due
+Speaking of credit..
+
+I stole this idea wholesale from a great [AirGap2020 talk on emulating firmware with Docker](https://www.youtube.com/watch?v=N0EYsO0VxZo). You should watch the video and give thanks to Ilya. All I've really done is figure out exactly what's involved and then write the steps down in some scripts. 
+
+## NB
+I'd never touched Docker before this side-quest so it's possible I've done this in a sub-optimal way. Feel free to let me know if you see anything daft.
+
+Similarly, I compiled these scripts like a week after I got this all working, and I was neither careful nor considerate when I threw in up package downloads and repo clones. It's possible I've grabbed too much stuff for your setup! I was just trying to account for all possible comers. Carve out whatever you don't want.
+
