@@ -13,7 +13,7 @@ I've done a basic and awful job of automating it so you can see how the pieces w
 
 I've presented them this way so it's easy to follow. I don't think the run script is required.
 
-Here is a usage example the WNAP320 firmware:
+Here is a usage example with the WNAP320 firmware:
 
 ```shell
 git clone https://github.com/unmeg/docker-emu.git
@@ -41,10 +41,10 @@ If you get it working, let me know how and I'll update the scripts/post with cre
 ## Credit where it's due
 Speaking of credit..
 
-I stole this idea wholesale from a great [AirGap2020 talk on emulating firmware with Docker](https://www.youtube.com/watch?v=N0EYsO0VxZo). You should watch the video and give thanks to Ilya. All I've really done is figure out what's involved and then write the steps down in some scripts. 
+I stole this idea wholesale from a great [AirGap2020 talk on emulating firmware with Docker](https://www.youtube.com/watch?v=N0EYsO0VxZo). You should watch the video and give thanks to Ilya.
 
 ## NB
 I'd never touched Docker before this side-quest so it's possible I've done this in a sub-optimal way. Feel free to let me know if you see anything daft.
 
-Similarly, I compiled these scripts like a week after I got this all working, and I was neither careful nor considerate when I threw in up package downloads and repo clones. It's possible I've grabbed too much stuff for your setup! I was just trying to account for all possible comers. Carve out whatever you don't want.
+Similarly, I compiled these scripts like a week after I got this all working, and I was neither careful nor considerate when I threw in package downloads and repo clones. It's possible I've grabbed too much stuff for your setup! I was just trying to account for all possible comers. Carve out whatever you don't want.
 
