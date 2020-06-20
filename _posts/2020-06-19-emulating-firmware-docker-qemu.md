@@ -13,7 +13,7 @@ I've done a basic and awful job of automating it so you can see how the pieces w
 
 I've presented them this way so it's easy to follow. I don't think the run script is required.
 
-Here are some steps for an example firmware:
+Here is a usage example the WNAP320 firmware:
 
 ```shell
 git clone https://github.com/unmeg/docker-emu.git
