@@ -2,7 +2,7 @@
 title:  "Emulating firmware with Docker and QEMU"
 layout: post
 ---
-![MIPS example](https://github.com/unmeg/unmeg.github.io/blob/master/assets/images/mips_arch.PNG?raw=true)
+![MIPS example](../assets/images/mips_arch.PNG?raw=true)
 
 This is a cool way to quickly emulate architectures other than the one you're running on without having to roll out a full VM! 
 
