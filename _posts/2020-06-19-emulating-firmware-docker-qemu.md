@@ -2,6 +2,7 @@
 title:  "Emulating firmware with Docker and QEMU"
 layout: post
 ---
+![MIPS example](https://github.com/unmeg/unmeg.github.io/blob/master/assets/images/mips_arch.PNG)
 
 This is a cool way to quickly emulate architectures other than the one you're running on without having to roll out a full VM! 
 
@@ -47,7 +48,9 @@ Speaking of credit..
 I stole this idea wholesale from a great [AirGap2020 talk on emulating firmware with Docker](https://www.youtube.com/watch?v=N0EYsO0VxZo). You should watch the video and give thanks to Ilya.
 
 ## NB
-I'd never touched Docker before this side-quest so it's possible I've done this in a sub-optimal way. Feel free to let me know if you see anything daft.
+* I'd never touched Docker before this side-quest so it's possible I've done this in a sub-optimal way. Feel free to let me know if you see anything daft.
 
-Similarly, I compiled these scripts like a week after I got this all working, and I was neither careful nor considerate when I threw in package downloads and repo clones. It's possible I've grabbed too much stuff for your setup! I was just trying to account for all possible comers. Carve out whatever you don't want.
+* Similarly, I compiled these scripts like a week after I got this all working, and I was neither careful nor considerate when I threw in package downloads and repo clones. It's possible I've grabbed too much stuff for your setup! I was just trying to account for all possible comers. Carve out whatever you don't want.
+
+* These scripts are for MIPS so firmware for other architectures won't work. At some point I will do some other versions too, but the idea was just to demonstrate how this works.
 
