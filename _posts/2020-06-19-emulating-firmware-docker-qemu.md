@@ -3,11 +3,9 @@ title:  "Emulating firmware with Docker and QEMU"
 layout: post
 ---
 
-## TLDR
-
 This is a cool way to quickly emulate architectures other than the one you're running on without having to roll out a full VM! 
 
-I've done a basic and awful job of automating it so you can see how the pieces work together. You'll probably have to tweak a bunch of stuff to use this more generally, but this should give you a clear starting point from which to tinker!
+I've done a basic and awful job of automating it so you can see how the pieces work together. You'll probably need to tweak a bunch of stuff to use these tools more generally, but now you have a clear starting point from which to tinker!
 
 ## How to do the thing
 
@@ -43,7 +41,7 @@ If you get it working, let me know how and I'll update the scripts/post with cre
 ## Credit where it's due
 Speaking of credit..
 
-I stole this idea wholesale from a great [AirGap2020 talk on emulating firmware with Docker](https://www.youtube.com/watch?v=N0EYsO0VxZo). You should watch the video and give thanks to Ilya. All I've really done is figure out exactly what's involved and then write the steps down in some scripts. 
+I stole this idea wholesale from a great [AirGap2020 talk on emulating firmware with Docker](https://www.youtube.com/watch?v=N0EYsO0VxZo). You should watch the video and give thanks to Ilya. All I've really done is figure out what's involved and then write the steps down in some scripts. 
 
 ## NB
 I'd never touched Docker before this side-quest so it's possible I've done this in a sub-optimal way. Feel free to let me know if you see anything daft.
