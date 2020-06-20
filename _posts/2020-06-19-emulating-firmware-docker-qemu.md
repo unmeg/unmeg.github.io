@@ -28,7 +28,7 @@ chmod +x prep_docker.sh run_docker.sh build_docker.sh test_docker.sh
 
 ./run_docker.sh
 ```
-These commands will download the firmware, extract it and drop you into a shell with access to the extracted rootfs. 
+These commands will eventually drop you into a shell with access to the extracted firmware rootfs. 
 
 I used this the other day to test a bindshell I'd compiled for a router I'm working on. It was super quick and easy because I just put the compiled binary in the /addons folder and built the container. Seconds later I was running the shell and testing its functionality.
 
