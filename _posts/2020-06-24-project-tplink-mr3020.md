@@ -7,7 +7,7 @@ In which I feebly hack on a cheap TPLINK MR3020 router.
 
 ## Project description
 
-I  bought this router because I wanted to play around with some hardware. I'd seen a few people flashing it with OpenWRT via easily installed UART headers, and overall it seemed like a pretty tame base to mess with.
+I  bought this router because I wanted to play around with some hardware. I'd seen a few people flashing it with OpenWRT via easily installed UART headers, and overall it seemed like a pretty tame base to mess with. Plug and play, almost!
 
 I expected to drop into a root shell within about 10 minutes of unbooxing it, naturally.
 
