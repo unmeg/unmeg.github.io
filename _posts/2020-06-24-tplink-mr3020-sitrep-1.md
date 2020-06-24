@@ -28,7 +28,7 @@ I wish I were coming to you triumphant, but alas.
     
 That place is: mipsel-buildroot-linux-uclibc/bin/ld: cannot find -los
 
-There's a lot to say about this, but right now I don't have a very organised way of saying it. I have been poking and prodding and compiling things like libos.so manually to see what would happen, but the issues persist. Rather than spew half-remembered thoughts and confusion at you, I'll summarise the problem properly (tomorrow?) while I'm diagnosing it more methodically and then make another post.
+There's a lot to say about this, but right now I don't have a very organised way of saying it. I have been poking and prodding and compiling things like libos.so manually to see what would happen, but the issues persist. Rather than spew half-remembered thoughts and confusion at you, I'll diagnose the problem more methodically (tomorrow?) and summarise it in another post.
 
 ## Excessive details
 
