@@ -113,6 +113,6 @@ lol@ubuntu:~/TL-MR3020V3/apps/public/os_libs$
 
 Having reviewed my actual timeline and recalibrated my productivity expectations accordingly, I pledge only to solve my build errors between now and next Wednesday. I'll flash the new firmware, too.
 
-Side quest the first: I'll probably tidy up the extremely generic bindshell (i.e. take the word 'lol' out of every variable) too and chuck it on the internet, because we obviously need more of those.
+Side quest, the first: I'll probably tidy up the extremely generic bindshell (i.e. take the word 'lol' out of every variable) too and chuck it on the internet, because we obviously need more of those.
 
-Side quest the second: I'll pay more attention to documenting things as I go. I have been taking notes in Notion and just realised today that I could export directly from Notion to markdown, which basically makes me giddy as it means I can pipe notes directly into these write-ups really easily.
+Side quest, the second: I'll pay more attention to documenting things as I go. I have been taking notes in Notion and just realised today that I could export directly from Notion to markdown, which basically makes me giddy because it means I can pipe formatted notes straight into these write-ups really easily.
