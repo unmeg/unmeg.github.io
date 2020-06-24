@@ -1,5 +1,5 @@
 ---
-title:  "TP-Link MR3020: Project Summary"
+title:  "TP-Link MR3020: Project summary"
 layout: post
 ---
 
