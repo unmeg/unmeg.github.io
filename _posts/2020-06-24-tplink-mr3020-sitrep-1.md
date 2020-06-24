@@ -12,7 +12,7 @@ The plan was to begin with a n00b run: use [firmware mod kit](https://github.com
 
 I thought I'd probably get through that pretty quickly, and maybe be able to deploy the kernel module similarly (FMK and so forth). 
 
-I even thought that I might have time this week to — as an academic exercise — recreate the final firmware image manually (i.e. without FMK) using the GPL code on the TPLINK website.
+I even thought that I might have time this week to — as an academic exercise — recreate the final firmware image manually (i.e. without FMK) using the GPL code on the TP-Link website.
 
 Cute.
 
