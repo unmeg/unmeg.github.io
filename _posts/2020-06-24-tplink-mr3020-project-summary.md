@@ -17,7 +17,7 @@ It turned out that I got the new version, which has tiny unsoldered pads (TP1 an
 
 I'm no stranger to soldering but I was concerned that the size of the pads would lead me to bodge the job and somehow break things.
 
-I booted up the router and checked out the web UI. There's a firmware upload feature, so I decided a more fun plan would be to backdoor the firmware, upload it, and see how much trouble I could get up to that way, and *then* to solder some connectors onto the tiny pads. If I broke it at that point, no harm done.
+I booted up the router and checked out the web UI. There's a firmware upload feature, so I decided a more fun plan would be to backdoor the firmware, upload it and see what trouble could be found. *Then* to solder some connectors onto the tiny pads. If I broke it at that point, no harm done.
 
 ## Project goals
 
