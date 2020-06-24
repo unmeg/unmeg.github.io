@@ -18,9 +18,11 @@ Cute.
 
 ## What I did
 
+I wish I were coming to you triumphant, but alas.
+
 - I grabbed the GPL code and dipped into the bundled toolchain to compile my C bindshell for MIPS, in casual anticipation of BACKDOORAGE.
 - I wanted to test that it worked, so I got distracted by [QEMU+Docker emulation](https://megwhite.com.au/emulating-firmware-docker-qemu/).
-- I discovered the firmware was not compatible with FMK (both new and old scripts) while trying to extract it for tampering. I didn't think it would matter too much as I already had the GPL dump, so I could just build everything from scratch with only slightly more effort, right (:smile:)!? No.
+- I discovered the firmware was not compatible with FMK (both new and old scripts) while trying to extract it for tampering. I didn't think it would matter too much as I already had the GPL dump, so I could just build everything from scratch with only slightly more effort, right!? No.
     - I spent a bunch of time (spread out over a few days) doctoring build scripts/source so that things would compile on my normal VM (which was not the same environment as the GPL README mentioned). I hit a wall.
     - I then set up a build environment that matched the README and tried again. New errors! Solved them, and ended up stuck at the same place as before.
 
