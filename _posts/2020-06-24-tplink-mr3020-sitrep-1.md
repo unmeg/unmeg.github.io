@@ -6,13 +6,13 @@ A weekly log for you and me.
 
 ## What I said I'd do
 
-Let's call this week one. The goal was easy peasy (:smile:): Just backdoor the firmware! No big deal.
+Let's call this week one. The goal was easy peasy: Just backdoor the firmware! No big deal.
 
 The plan was to begin with a n00b run: use [firmware mod kit](https://github.com/rampageX/firmware-mod-kit/wiki) to unpack the firmware, add a basic bindshell binary and set the init script to trigger it, then rebuild the firmware and flash it via the web UI. If that worked, I'd move on to writing a kernel module. 
 
-I thought I'd probably get through that pretty quickly (:smile:), and maybe be able to deploy the kernel module similarly (FMK and so forth). 
+I thought I'd probably get through that pretty quickly, and maybe be able to deploy the kernel module similarly (FMK and so forth). 
 
-I even thought that I might have time this week (:smile:) to — as an academic exercise — recreate the final firmware image manually (i.e. without FMK) using the GPL code on the TPLINK website.
+I even thought that I might have time this week to — as an academic exercise — recreate the final firmware image manually (i.e. without FMK) using the GPL code on the TPLINK website.
 
 Cute.
 
