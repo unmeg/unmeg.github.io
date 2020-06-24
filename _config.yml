@@ -1,6 +1,6 @@
 title: "MegLab"
 author: "Meg White"
-description: "A toilet for my brain.</b>"
+description: ":alien:</b>"
 permalink: /:title/
 lang: "en"
 excerpt_separator: "\n\n\n"
@@ -26,9 +26,9 @@ navigation:
   - {file: "about.md", icon: address-card}
 
 external:                    # see http://fontawesome.com/icons
-#  - {title: Mail, icon: envelope, url: "mailto:niklasbuschmann@users.noreply.github.com"}
-#  - {title: Github, icon: github, url: "https://github.com/niklasbuschmann/contrast"}
-#  - {title: Subscribe, icon: rss, url: "/feed.xml"}
+  - {title: Mail, icon: envelope, url: "mailto:heymeg HATS protonmail DOOTS com"}
+  - {title: Github, icon: github, url: "https://github.com/unmeg/"}
+  - {title: Subscribe, icon: rss, url: "/feed.xml"}
 
 comments:
 #  disqus_shortname: ""      # see https://disqus.com/
