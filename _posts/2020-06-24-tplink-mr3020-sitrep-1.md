@@ -44,7 +44,7 @@ make[1]: Leaving directory `/home/lol/TL-MR3020V3/mtk_ApSoC_4320/modules/public/
 make: *** [wirelesstool] Error 2
 ```
 
-The relevant slice of Makefile:
+The relevant slice of Makefile (failing line 3):
 
 ```bash
 ifeq ($(strip $(SUPPLIER)),mtk_ApSoC_4120)
