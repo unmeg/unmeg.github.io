@@ -3,7 +3,7 @@ title:  "TP-Link MR3020: Project summary"
 layout: post
 ---
 
-In which I feebly hack on a cheap TPLINK MR3020 router.
+In which I feebly hack on a cheap TP-Link MR3020 router.
 
 ## Project description
 
