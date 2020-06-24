@@ -25,6 +25,10 @@ I wish I were coming to you triumphant, but alas.
 - I discovered the firmware was not compatible with FMK (both new and old scripts) while trying to extract it for tampering. I didn't think it would matter too much as I already had the GPL dump, so I could just build everything from scratch with only slightly more effort, right!? No.
     - I spent a bunch of time (spread out over a few days) doctoring build scripts/source so that things would compile on my normal VM (which was not the same environment as the GPL README mentioned). I hit a wall.
     - I then set up a build environment that matched the README and tried again. New errors! Solved them, and ended up stuck at the same place as before.
+    
+That place is: mipsel-buildroot-linux-uclibc/bin/ld: cannot find -los
+
+There's a lot to say about this, but right now I don't have a very organised way of saying it. I have been poking and prodding and compiling things like libos.so manually to see what would happen, but the issues persist. Rather than spew half-remembered thoughts and confusion at you, I'll summarise the problem properly (tomorrow?) while I'm diagnosing it more methodically and then make another post.
 
 ## Excessive details
 
