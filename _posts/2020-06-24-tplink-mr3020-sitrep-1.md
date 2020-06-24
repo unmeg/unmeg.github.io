@@ -115,4 +115,4 @@ Having reviewed my actual timeline and recalibrated my productivity expectations
 
 Side quest the first: I'll probably tidy up the extremely generic bindshell (i.e. take the word 'lol' out of every variable) too and chuck it on the internet, because we obviously need more of those.
 
-Side quest the second: I'll pay more attention to documenting things as I go. I have been taking notes in Notion and just realised today that I could export directly from Notion to Markdown, which basically makes me giddy.
+Side quest the second: I'll pay more attention to documenting things as I go. I have been taking notes in Notion and just realised today that I could export directly from Notion to markdown, which basically makes me giddy as it means I can pipe notes directly into these write-ups really easily.
