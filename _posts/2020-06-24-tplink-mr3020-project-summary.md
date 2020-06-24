@@ -9,7 +9,7 @@ In which I feebly hack on a cheap TP-Link MR3020 router.
 
 I  bought this router because I wanted to play around with some hardware. I'd seen a few people flashing it with OpenWRT via easily installed UART headers, and overall it seemed like a pretty tame base to mess with. Plug and play, almost!
 
-I expected to drop into a root shell within about 10 minutes of unbooxing it, naturally.
+I expected to drop into a root shell within about 10 minutes of unboxing it, naturally.
 
 It turned out that I got the new version, which has tiny unsoldered pads (TP1 and TP2 below) for the UART connection rather than holes for pins.
 
