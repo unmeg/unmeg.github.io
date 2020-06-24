@@ -103,7 +103,7 @@ clean :
 lol@ubuntu:~/TL-MR3020V3/apps/public/os_libs$
 ```
 
-## What is up next
+## What next?
 
 Having reviewed my actual timeline and recalibrated my productivity expectations accordingly, I pledge only to solve my build errors between now and next Wednesday. I'll flash the new firmware, too.
 
