@@ -53,30 +53,34 @@ make: *** [wirelesstool] Error 2
 The relevant slice of Makefile (failing line 3):
 
 ```bash
-ifeq ($(strip $(SUPPLIER)),mtk_ApSoC_4120)
-        @echo "build wireless toolsBLOOP"
-        cd $(WIRELESSTOOLS) &&  make realclean && make all;\
-        cp -f $(WIRELESSTOOLSLIB) $(INSTALL_WIRELESS)/lib;\
-        cp -f iwpriv $(INSTALL_WIRELESS)/sbin;\
-        cp -f wlNetlinkTool $(INSTALL_WIRELESS)/sbin
+ifeq ($(strip $(SUPPLIER)),mtk_ApSoC_4320)
+	@echo "build wireless tools BLEP"
+	cd $(WIRELESSTOOLS) &&  make realclean && make all;\	
+	@echo "PASSED THE THING!"
+	cp -f $(WIRELESSTOOLSLIB) $(INSTALL_WIRELESS)/lib;\
+	@echo "PASSED THE NEXT THING"
+	cp -f iwpriv $(INSTALL_WIRELESS)/sbin;\
+	cp -f iwconfig $(INSTALL_WIRELESS)/sbin;\
+	cp -f iwlist $(INSTALL_WIRELESS)/sbin;\
+	cp -f wlNetlinkTool $(INSTALL_WIRELESS)/sbin
+	
+	#@echo "build wireless tools"
+	#cd $(WIRELESSTOOLS)/../sysstat-9.0.6 &&  make clean && make mpstat;\
+	#cp -f mpstat $(INSTALL_WIRELESS)/sbin
+	
+	#@echo "build ated for QA"
+	#cd $(WIRELESSTOOLS)/../ated &&  make clean && make all;\
+	#cp -f ated $(INSTALL_WIRELESS)/sbin
 
-        #@echo "build wireless tools"
-        #cd $(WIRELESSTOOLS)/../sysstat-9.0.6 &&  make clean && make mpstat;\
-        #cp -f mpstat $(INSTALL_WIRELESS)/sbin
+	echo "Build the rt2860apd for 802.1x"
+	cd $(WIRELESSTOOLS)/../8021x &&  make clean && make all;\
+	cp -f rt2860apd $(INSTALL_WIRELESS)/sbin/;\
+	ln -sf rt2860apd $(INSTALL_WIRELESS)/sbin/rtinicapd
 
-        @echo "build ated for QA"
-        cd $(WIRELESSTOOLS)/../ated &&  make clean && make all;\
-        cp -f ated $(INSTALL_WIRELESS)/sbin
-
-        echo "Build the rt2860apd for 802.1x"
-        cd $(WIRELESSTOOLS)/../8021x &&  make clean && make all;\
-        cp -f rt2860apd $(INSTALL_WIRELESS)/sbin/;\
-        ln -sf rt2860apd $(INSTALL_WIRELESS)/sbin/rtinicapd
-
-        echo "Build wscd for wps while coexist of dual-band"
-        cd $(WIRELESSTOOLS)/../wsc_upnp/wsc_upnp && chmod -R +rx ./ && make clean && make all;\
-        cp -f wscd $(INSTALL_WIRELESS)/sbin/;\
-        ln -sf wscd $(INSTALL_WIRELESS)/sbin/wscd_5G
+	echo "Build wscd for wps while coexist of dual-band"
+	cd $(WIRELESSTOOLS)/../wsc_upnp/wsc_upnp && chmod -R +rx ./ && make clean && make all;\
+	cp -f wscd $(INSTALL_WIRELESS)/sbin/;\
+	ln -sf wscd $(INSTALL_WIRELESS)/sbin/wscd_5G
 endif
 ```
 
