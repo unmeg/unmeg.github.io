@@ -170,14 +170,14 @@ Specifically:
 There were a few issues with /apps/public/os_libs, and they manifested as issues building the wireless apps/modules. Eventually, I realised that I had to:
 
 - Remove a reference in os_msg.h to dm_paramLen.h (which was symlinked to a file that didn't exist). I'm still not sure what this file was meant to contain, or do, and I didn't find any other files with that name on the internerd. Commenting out the include appeared to fix things, but mark this down as a potential bug.
-- Fix the Makefile to use the correct compiler/stripper.
-- Actually add compilation to the build process.
+- Fix the Makefile to use the correct compiler/stripper (it was not building the .so for MIPS and was ambiguously erroring on the stripping step, which messed with things too). This was by far the thing that took me longest to identify.
+- Actually add the library compilation to the build process.
 
 Reading through all the connected documents to understand what needed to happen for libos probably took up the majority of my debugging time. Somehow that made it hilarious when I finally figured out the few, tiny things that needed tweaking.
 
 ### fakeroot
 
-I was pretty happy when I saw this error: 
+After the libos issue, I was pretty happy when I saw this error: 
 
 ```bash
 fakeroot: preload library not found, aborting.
@@ -185,7 +185,7 @@ fakeroot: preload library not found, aborting.
 
 "Great," I thought, "I love this error. It's clear, it's perfect, it's straightforward. It can't find the library. I am sure I can pass the library path somewhere!"
 
-You can, of course. Fakeroot is a script with hardcoded paths. The Makefile for the firmware build edited that script to hit the correct directory, but was pointing at libfakeroot.a and not libfakeroot-0.so. Quick fix.
+You can, of course. Fakeroot is a script with hardcoded paths. The Makefile for the firmware edited that script to hit the correct directory, but it was pointing at libfakeroot.a and not libfakeroot-0.so. Quick, hacky fix.
 
 ### libtool
 
@@ -199,7 +199,7 @@ sudo bash -c "ln -s /bin/bash /bin/sh"
 
 ### Misc
 
-There were a bunch of packages (byacc, bison, libusb, texinfo, flex, and so on) that I grabbed along the way (mostly before I committed to taking better notes) and some ad-hoc edits I did here and there. Hopefully when I test out my build script later I will be able to identify them for lookers-on!
+There were a bunch of packages (byacc, bison, libusb, texinfo, flex, and so on) that I grabbed along the way (mostly before I committed to taking better notes) and some ad-hoc edits I did here and there (again, mostly before I committed to taking notes). Hopefully when I test out my build script later I will be able to better account for all of those little things for lookers-on!
 
 ## What next?
 
