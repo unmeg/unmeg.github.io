@@ -207,6 +207,8 @@ I'm not planning much for this project over the next week. I have a lot of other
 
 If I can get a spare moment, my focus will be on testing the validity of my perverted firmware. I haven't flashed it yet because I wanted to poke at the router in as-is condition for a bit first. I've kind of ignored it so far.
 
+Anyway, once I run the firmware in an emulator, I will add the bindshell to the filesystem and edit the initialisation script to boot it up. Then I'll flash and take bets on bricking.
+
 I'm also pretty keen to write up a skeleton kernel module.
 
 I have a lot of ODEs to (remember how to) do though, so I make no promises. Math before hax.
