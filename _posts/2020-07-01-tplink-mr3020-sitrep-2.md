@@ -14,7 +14,7 @@ I also said I'd tidy up the bind shell a bit.
 
 I prevailed, that's what. Admittedly, I prevailed because I set the bar rather low. It's a strategy I'm now quite fond of.
 
-Here's the moneyshot (I thought I'd never get a) to the filesystem build, or b) through the filesystem build).
+I thought I'd never get a) to the filesystem build, or b) through the filesystem build, so I invite you to gaze upon this moneyshot:
 
 ```bash
 building FS ...
