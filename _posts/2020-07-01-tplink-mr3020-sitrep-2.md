@@ -14,7 +14,7 @@ I also said I'd tidy up the bind shell a bit.
 
 I prevailed, that's what. Admittedly, I prevailed because I set the bar rather low. It's a strategy I'm now quite fond of.
 
-I thought I'd never get a) to the filesystem build, or b) through the filesystem build, so I invite you to gaze upon this text blob with me:
+I thought I'd never get a) to the filesystem build, or b) through the filesystem build, but I did both and made it to baking up a firmware image. I thus invite you to gaze upon this erotic text blob with me:
 
 ```bash
 building FS ...
