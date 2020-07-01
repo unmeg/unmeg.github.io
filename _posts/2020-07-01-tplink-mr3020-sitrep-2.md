@@ -197,7 +197,7 @@ sudo bash -c "ln -s /bin/bash /bin/sh"
 
 ### Misc
 
-There were a bunch of packages (byacc, bison, libusb, texinfo, flex, and so on) that I grabbed along the way (mostly before I committed to taking better notes) and some ad-hoc edits I did here and there (again, mostly before I committed to taking notes). Hopefully when I test out my build script later I will be able to better account for all of those little things for lookers-on!
+There were a bunch of packages (byacc, bison, libusb, texinfo, flex, and so on) that I grabbed along the way (mostly before I committed to taking actual notes) and some ad-hoc edits I did here and there (again, mostly before I committed to taking notes). Hopefully when I test out my build script later I will be able to better account for all of those little things for lookers-on!
 
 ## What next?
 
@@ -205,7 +205,7 @@ I'm not planning much for this project over the next week. I have a lot of other
 
 If I can get a spare moment, my focus will be on testing the validity of my vanilla DIY firmware image and, then, my perverted firmware image. I haven't tried to flash anything yet because I wanted to poke at the router in as-is condition for a bit first. I've kind of ignored it so far.
 
-Anyway, once I run the firmware in an emulator, I will add the bindshell to the filesystem and edit the initialisation script to boot it up. Then I'll flash and take bets on bricking.
+Anyway, once I run the firmware in an emulator, I will add the bindshell to the filesystem and edit the initialisation script to boot it up. Then I'll rebuild, flash and take bets on bricking.
 
 I'm also pretty keen to write up a skeleton kernel module.
 
