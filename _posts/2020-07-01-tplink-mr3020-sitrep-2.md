@@ -170,10 +170,8 @@ Specifically:
 There were a few issues with /apps/public/os_libs, and they manifested as issues building the wireless apps/modules. Eventually, I realised that I had to:
 
 - Remove a reference in os_msg.h to dm_paramLen.h (which was symlinked to a file that didn't exist). I'm still not sure what this file was meant to contain, or do, and I didn't find any other files with that name on the internerd. Commenting out the include appeared to fix things, but mark this down as a potential bug.
-- Fix the Makefile to use the correct compiler/stripper (it was not building the .so for MIPS and was ambiguously erroring on the stripping step, which messed with things too). This took, by far, the most time and effort to identify. I will never again simply check for the existence of a file and mark it as a-okay. Rather, I will squint at every detail before moving on.
+- Fix the Makefile to use the correct compiler/stripper. It was not building the .so for MIPS (the target architecture), it was building it for Intel (the host). It was also ambiguously erroring on the stripping step, as there was a call to strip but no stripper listed, which messed with things too. These issues took, by far, the most time and effort to identify. I will never again simply check for the existence of a file that's involved in an error and mark it as a-okay. Rather, I will squint at every detail before moving on.
 - Actually add the library compilation to the build process.
-
-Reading through all the connected documents to understand what needed to happen for libos probably took up the majority of my debugging time. Somehow that made it hilarious when I finally figured out the few, tiny things that needed tweaking.
 
 ### fakeroot
 
