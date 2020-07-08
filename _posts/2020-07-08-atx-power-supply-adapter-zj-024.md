@@ -9,7 +9,7 @@ No router project update this week as I've been consumed by some regular enginee
 
 ## Numbers
 
-Attached to a 550W PENQUIN power supply, I get:
+Okay, when I attach this board to a 550W PENQUIN power supply and probe the terminal blocks with a multimeter, here are the values I am getting on each rail:
 
 +12V: 12.10V
 
