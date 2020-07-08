@@ -3,7 +3,7 @@ title:  "Let's make a DIMELAB"
 layout: post
 ---
 
-A series in which I build up a low-cost electronics/hardware hacking lab at home (AKA I buy cheap gear and tell you if it's awful).
+A casual series in which I build up a low-cost electronics/hardware hacking lab at home (AKA I buy cheap gear and tell you if it's awful).
 
 ## Why tho?
 
@@ -21,7 +21,7 @@ This is an evolving list.
 
 - Benchtop power supply [ (SEE 1: ATX breakout adapter) ](https://megwhite.com.au/atx-power-supply-adapter-zj-024/)
 - Some sort of signal generator
-- Dedicate logic analyzer
+- Dedicated logic analyzer
 - < Insert list items related to FPGAs >
 - < Insert list items related to PLCs >
 - Whatever else is freaking cool.
