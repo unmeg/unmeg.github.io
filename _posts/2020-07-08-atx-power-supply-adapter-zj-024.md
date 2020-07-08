@@ -2,9 +2,10 @@
 title:  "DIMELAB: ZJ-024 ATX Power Supply Breakout Adapter"
 layout: post
 ---
-![ZJ-024](../assets/images/20200708_105853.jpg?raw=true)
 
 No router project update this week as I've been consumed by some regular engineering stuff for uni.  However, I finally received this little breakout board in the mail today and I thought I'd list the running output voltages for anyone who might be considering it.
+
+![ZJ-024](../assets/images/20200708_110403.jpg?raw=true)
 
 ## Numbers
 
