@@ -19,7 +19,7 @@ This leads us to my plans for a low-end home lab. I am going full Pareto here an
 
 This is an evolving list.
 
-- Benchtop power supply
+- Benchtop power supply [ (SEE 1: ATX breakout adapter) ](https://megwhite.com.au/atx-power-supply-adapter-zj-024/)
 - Some sort of signal generator
 - Dedicate logic analyzer
 - < Insert list items related to FPGAs >
