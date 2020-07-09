@@ -26,7 +26,7 @@ navigation:
   - {file: "about.md", icon: address-card}
 
 external:                    # see http://fontawesome.com/icons
-  - {title: Twitter, icon: twitter, url: "https://twitter.com/unmeg}
+  - {title: Twitter, icon: twitter, url: "https://twitter.com/unmeg"}
   - {title: Mail, icon: envelope, url: "mailto:heymeg HATS protonmail DOOTS com"}
   - {title: Github, icon: github, url: "https://github.com/unmeg/"}
   - {title: Subscribe, icon: rss, url: "/feed.xml"}
