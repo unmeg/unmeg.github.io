@@ -3,7 +3,7 @@ title:  "VOLFGANG: Artist's Artist's Statement"
 layout: post
 ---
 
-**TLDR**: I made a [print-on-demand shop that sells shirts (+ other things soon) that were designed by an AI (artificial intelligence](www.volfga.ng). I currently call this shop [VOLFGANG: Non-Fungible Tangibles](www.volfga.ng). Right now I only have t-shirts up, because I refuse to spend money on this ridiculous thing and I need to upgrade my $ubscription to add more products. But once I get a year of $$ from sales, hooo boy – socks, shower curtains, designs a-plenty!
+**TLDR**: I made a [print-on-demand shop that sells shirts (+ other things soon) that were designed by an AI (artificial intelligence)](www.volfga.ng). I currently call this shop [VOLFGANG: Non-Fungible Tangibles](www.volfga.ng). Right now I only have t-shirts up, because I refuse to spend money on this ridiculous thing and I need to upgrade my $ubscription to add more products. But once I get a year of $$ from sales, hooo boy – socks, shower curtains, designs a-plenty!
 
 ## The full story
 One of my kasquillion side projects is this AI-based, over-the-top creative studio / fashion brand / artist / designer persona who hypes up being the FUTURE OF AESTHETICS and then churns out absolutely garbage doodles that would shame even the most shameless toddler. 
