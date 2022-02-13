@@ -3,10 +3,10 @@ title:  "VOLFGANG: Artist's Artist's Statement"
 layout: post
 ---
 
-**TLDR**: I made [print-on-demand shop that sells shirts (+ other things soon) that were designed by an AI (artificial intelligence](www.volfga.ng). I currently call this shop [VOLFGANG: Non-Fungible Tangibles](www.volfga.ng). Right now I only have t-shirts up, because I refuse to spend money on this ridiculous thing and I need to upgrade my $ubscription to add more products. But once I get a year of $$ from sales, hooo boy – socks, shower curtains, designs a-plenty!
+**TLDR**: I made a [print-on-demand shop that sells shirts (+ other things soon) that were designed by an AI (artificial intelligence](www.volfga.ng). I currently call this shop [VOLFGANG: Non-Fungible Tangibles](www.volfga.ng). Right now I only have t-shirts up, because I refuse to spend money on this ridiculous thing and I need to upgrade my $ubscription to add more products. But once I get a year of $$ from sales, hooo boy – socks, shower curtains, designs a-plenty!
 
 ## The full story
-One of my kasquillion side projects is this over-the-top creative studio / fashion brand / artist / designer AI persona who hypes up being the FUTURE OF AESTHETICS and then churns out absolutely garbage doodles that would shame even the most shameless toddler. 
+One of my kasquillion side projects is this AI-based, over-the-top creative studio / fashion brand / artist / designer persona who hypes up being the FUTURE OF AESTHETICS and then churns out absolutely garbage doodles that would shame even the most shameless toddler. 
 
 This persona will not undergo a growth arc. There will not be any acknowledgment of hack status. It is pure braggadocio from start to finish.
 
@@ -21,11 +21,11 @@ And that’s the full context for creating an overstated AI fashion/art haus on 
 ## Technical stuff
 It’s not even worth mentioning, but for those who wanted to know, my VOLFGANG project has two models: Volfgang (Creative Director) is a simple SR-GAN that has consumed the Google QuickDraw dataset, and Baptiste (Assistant) is a mish-mash of things (CLIP/VQ-GAN) that has consumed a mish-mash of the entire history of human art. Then there’s some post-processing (vectorisation/super resolution) at the end for good measure.
 
-An idea of the !?!?! ART !?!:
+An example of the !?!?! ART !?!:
 
-![Volfgang: Pig](../assets/images/test_8.jpg?raw=true)
-
-![Baptiste: Whatever, man](../assets/images/Baptiste-drug-cat.png?raw=true)
+Volfgang (Creative Director) |  Baptiste (Assistant)
+:---------------------------:|:---------------------------:
+![Volfgang: Pig](../assets/images/test_8.jpg?raw=true)  |  ![Baptiste: Whatever, man](../assets/images/Baptiste-drug-cat.png?raw=true)
 
 ## What’s next
 My intentions are to: 
