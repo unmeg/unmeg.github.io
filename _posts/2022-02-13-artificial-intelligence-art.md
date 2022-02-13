@@ -23,7 +23,7 @@ It’s not even worth mentioning, but for those who wanted to know, my VOLFGANG 
 
 An idea of the !?!?! ART !?!:
 
-![Volfgang: Pig](../assets/images/test_8.png?raw=true)
+![Volfgang: Pig](../assets/images/test_8.jpg?raw=true)
 
 ![Baptiste: Whatever, man](../assets/images/Baptiste-drug-cat.png?raw=true)
 
