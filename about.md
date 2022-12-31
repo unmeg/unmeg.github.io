@@ -6,18 +6,8 @@ permalink: /about/
 
 ## whoami
 
-My name is Meg White. I'm a fourth-year electrical engineering student and an aspiring security researcher. 
-
-In March 2020, I resigned from my job as a machine learning research engineer and startup CEO. I love deep learning and I look forward to working at the intersection of AI and security for a long time to come. 
-
-For the moment, though, I'm focused on learning everything I can about reverse engineering, source code analysis, exploit development, embedded devices and all the ideas in between. My interests pertain very consistently to "cyber-physical systems" and I'm keen to git gud at making and breaking them.
+My name is Meg White. I'm an R&D engineer (renewables) and PhD candidate.
 
 ## whatisblog
 
-Notes on security and (after a little break) ML.
-
-I passed the OSCP in early 2020. It was great fun and confirmed for me that I want to become a really solid (ethical/legal/etcetera) adversary. My intention is to document some of that process here.
-
-Don't expect anything polished or complete. I'm treating this place like a scratch pad.
-
-<sub><sup>Contrast theme pinched from [@niklasbuschmann](https://github.com/niklasbuschmann)</sup></sub>
+This blog is a mish-mash of stuff I am making or breaking. It's mostly abandoned, but that will change soon.
