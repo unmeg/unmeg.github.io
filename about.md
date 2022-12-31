@@ -6,7 +6,7 @@ permalink: /about/
 
 ## whoami
 
-My name is Meg White. I'm an R&D engineer (electrical/renewables) and PhD candidate.
+My name is Meg White. I'm an R&D engineer (electrical/renewables) and PhD student.
 
 ## whatisblog
 
