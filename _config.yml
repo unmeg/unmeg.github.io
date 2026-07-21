@@ -1,7 +1,7 @@
-title: "MegLab"
-author: "Meg White"
-description: "An homage to daft questions.</b>"
-permalink: /:title/
+title: "Meaghan White"
+author: "Meaghan White"
+description: "Academic landing page of Meaghan White"
+permalink: /archive/:title/
 lang: "en"
 excerpt_separator: "\n\n\n"
 date_format: "%B %d, %Y"
@@ -21,9 +21,7 @@ minimal: false               # use simpler style
 
 # Menu
 
-navigation:
-  - {file: "index.html", icon: home}
-  - {file: "about.md", icon: address-card}
+navigation: []
 
 external:                    # see http://fontawesome.com/icons
   - {title: Twitter, icon: twitter, url: "https://twitter.com/unmeg"}
