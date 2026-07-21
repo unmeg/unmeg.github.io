@@ -1,6 +1,7 @@
-title: "Meaghan White"
-author: "Meaghan White"
-description: "Academic landing page of Meaghan White"
+title: "Meg White"
+author: "Meg White"
+description: "Academic landing page of Meg White"
+headshot: "/assets/images/meggie_hs.PNG"
 permalink: /archive/:title/
 lang: "en"
 excerpt_separator: "\n\n\n"

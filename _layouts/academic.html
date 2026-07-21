@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Meaghan White | University of Queensland EECS</title>
-  <meta name="description" content="Academic homepage of Meaghan White, researcher in cyber-physical systems, machine learning for power systems, and director of SLOBBERDOG.">
+  <title>Meg White | University of Queensland EECS</title>
+  <meta name="description" content="Academic homepage of Meg White, researcher in cyber-physical systems, machine learning for power systems, and director of SLOBBERDOG.">
   
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -237,13 +237,47 @@
         display: none; /* hidden on desktop since sidebar handles copyright if needed, or we keep it clean */
       }
     }
+
+    .profile-photo-container {
+      width: 130px;
+      height: 130px;
+      margin-bottom: 2rem;
+      border-radius: 20px;
+      overflow: hidden;
+      border: 1px solid var(--border-color);
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.04);
+      background-color: var(--border-color);
+    }
+
+    @media (min-width: 64em) {
+      .profile-photo-container {
+        width: 155px;
+        height: 155px;
+      }
+    }
+
+    .profile-photo {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+
+    .profile-photo-container:hover .profile-photo {
+      transform: scale(1.05);
+    }
   </style>
 </head>
 <body>
   <div class="main-grid">
     <aside class="sidebar">
       <div class="brand">
-        <h1>Meaghan White</h1>
+        {% if site.headshot %}
+          <div class="profile-photo-container">
+            <img src="{{ site.headshot | relative_url }}" alt="Meg White" class="profile-photo">
+          </div>
+        {% endif %}
+        <h1>Meg White</h1>
         <p class="affiliation">University of Queensland<br>School of EECS</p>
       </div>
       
@@ -276,7 +310,7 @@
         </div>
         
         <div class="footer">
-          &copy; {{ site.time | date: "%Y" }} Meaghan White
+          &copy; {{ site.time | date: "%Y" }} Meg White
         </div>
       </div>
     </main>
